@@ -1,0 +1,58 @@
+body{
+    background-color: hsl(0, 0%, 100%) !important;
+}
+.uk-timeline .uk-timeline-item .uk-card {
+	max-height: 300px;
+}
+
+.uk-timeline .uk-timeline-item {
+    display: flex;
+    position: relative;
+}
+
+.avatar{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.uk-timeline .uk-timeline-item::before {
+    background: #dadee4;
+    content: "";
+    height: 100%;
+    left: 19px;
+    position: absolute;
+    top: 20px;
+    width: 2px;
+		z-index: -1;
+}
+
+.header-information{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.header-name-color{
+    background-color: #af2656;
+    color: #fff;
+    padding:1px;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+}
+
+.uk-timeline .uk-timeline-item .uk-timeline-icon .uk-badge {
+		margin-top: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.uk-timeline .uk-timeline-item .uk-timeline-content {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0 0 0 1rem;
+}
+.uk-label:hover{
+    cursor: pointer;
+}
